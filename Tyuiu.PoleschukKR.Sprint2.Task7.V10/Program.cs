@@ -31,9 +31,9 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task7.V10
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите значение переменной X: ");
+            Console.WriteLine("Введите значение переменной x: ");
             double x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите значение переменной Y: ");
+            Console.WriteLine("Введите значение переменной y: ");
             double y = Convert.ToDouble(Console.ReadLine());
            
             bool res = ds.CheckDotInShadedArea(x, y);
