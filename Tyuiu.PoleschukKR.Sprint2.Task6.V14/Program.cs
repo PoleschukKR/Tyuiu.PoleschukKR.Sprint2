@@ -56,7 +56,7 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task6.V14
             }
             else
             {
-                res = ds.FindDayName(t);
+                res = ds.FindDayName(d,k);
                 Console.WriteLine(res);
             }
             Console.ReadLine();

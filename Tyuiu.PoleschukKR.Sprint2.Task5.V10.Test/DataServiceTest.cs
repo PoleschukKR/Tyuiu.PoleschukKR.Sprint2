@@ -17,10 +17,10 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task5.V10.Test
             int m = 1;
             int n = 1;
 
-            int res = ds.FindDateOfPreviousDay(g, m, n);
-            string q = "221231";
+            string res = ds.FindDateOfPreviousDay(g,m,n);
+            string q = "31.12.22";
 
-            Assert.AreEqual(Convert.ToDouble(q), res);
+            Assert.AreEqual(Convert.ToString(q), res);
         }
     }
 }

@@ -18,7 +18,7 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task6.V14.Test
 
             int t = (d + k - 2) % 7;
 
-            string res = ds.FindDayName(t);
+            string res = ds.FindDayName(k,d);
 
             string wait = "суббота";
 

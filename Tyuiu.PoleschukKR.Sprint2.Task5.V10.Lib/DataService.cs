@@ -10,7 +10,7 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task5.V10.Lib
 {
     public class DataService : ISprint2Task5V10
     {
-        public int FindDateOfPreviousDay(int g, int m, int n)
+        public string FindDateOfPreviousDay(int g, int m, int n)
         {
             switch (m)
             {
@@ -63,14 +63,10 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task5.V10.Lib
                     break;
             }
 
-            string t = g.ToString();
-            string v = m.ToString();
-            string h = n.ToString();
-            return int.Parse(t + v + h);
+            string res = n + "." + m + "." + g;
+            return res;
 
 
-
-        } 
-              
+        }
     }
 }

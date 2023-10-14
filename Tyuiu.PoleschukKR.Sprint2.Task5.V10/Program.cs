@@ -43,7 +43,7 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task5.V10
             Console.WriteLine(" Введите число: ");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            int res;
+            string res;
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
@@ -55,7 +55,7 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task5.V10
             }
             else
             {
-                res = ds.FindDateOfPreviousDay(g, m, n); 
+                res = ds.FindDateOfPreviousDay(g, m, n);
                 Console.WriteLine(res);
             }
 
