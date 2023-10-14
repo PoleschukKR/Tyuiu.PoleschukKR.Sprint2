@@ -44,7 +44,7 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task6.V14.Lib
                     res = "воскресенье";
                     break;
 
-                default: throw new ArgumentException(res = "недопустимый день недели");
+                default: throw new ArgumentException(res = "недопустимый день недели!");
 
 
             }

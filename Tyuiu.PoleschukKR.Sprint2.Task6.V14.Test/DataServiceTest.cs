@@ -22,7 +22,7 @@ namespace Tyuiu.PoleschukKR.Sprint2.Task6.V14.Test
 
             string wait = "суббота";
 
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait,res);
         }
     }
 }
